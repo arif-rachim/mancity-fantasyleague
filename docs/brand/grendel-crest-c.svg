@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B01221"/><stop offset="1" stop-color="#7E0B17"/>
+    </linearGradient>
+  </defs>
+  <clipPath id="cc"><rect x="26" y="26" width="460" height="460" rx="74"/></clipPath>
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#0B111F"/>
+  <rect x="22" y="22" width="468" height="468" rx="78" fill="none" stroke="url(#cg)" stroke-width="7"/>
+
+  <g transform="translate(256,300) scale(0.92,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="232" letter-spacing="-6" fill="#F3E7D0">TG</text></g>
+
+  <!-- claw slashes, confined to the monogram band -->
+  <g clip-path="url(#cc)" opacity=".92">
+    <path d="M 44 132 L 470 222 L 468 240 L 42 150 Z" fill="#B01221"/>
+    <path d="M 44 202 L 470 292 L 468 308 L 42 218 Z" fill="#B01221"/>
+    <path d="M 44 272 L 470 362 L 468 376 L 42 288 Z" fill="#B01221"/>
+  </g>
+
+  <g transform="translate(256,412) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="44" letter-spacing="3" fill="#F3E7D0">THE GRENDEL</text></g>
+  <g transform="translate(256,452) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="15" letter-spacing="4" fill="#8496B5">FANTASY PREMIER LEAGUE</text></g>
+</svg>

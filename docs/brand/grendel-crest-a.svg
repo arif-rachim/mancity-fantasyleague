@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131C31"/><stop offset="1" stop-color="#0B111F"/>
+    </linearGradient>
+    <clipPath id="sc"><path d="M 70 96 L 256 44 L 442 96 L 442 250 C 442 364 358 440 256 478 C 154 440 70 364 70 250 Z"/></clipPath>
+  </defs>
+
+  <path d="M 70 96 L 256 44 L 442 96 L 442 250 C 442 364 358 440 256 478 C 154 440 70 364 70 250 Z" fill="#E7B32A"/>
+  <path d="M 70 96 L 256 44 L 442 96 L 442 250 C 442 364 358 440 256 478 C 154 440 70 364 70 250 Z" fill="url(#sg)" transform="translate(256,262) scale(.945) translate(-256,-262)"/>
+
+  <g clip-path="url(#sc)">
+    <path d="M 70 300 L 442 300 L 442 500 L 70 500 Z" fill="#7E0B17" opacity=".55"/>
+    <path d="M 70 96 L 442 96 L 442 118 L 70 118 Z" fill="#B01221" opacity=".7"/>
+  </g>
+
+  
+  <g transform="translate(256,236) scale(1.0)">
+    <!-- horns -->
+    <path d="M -74 -30 C -112 -60 -128 -112 -118 -158 C -96 -120 -74 -96 -46 -76 Z"
+          fill="#F3E7D0"/>
+    <path d="M  74 -30 C  112 -60  128 -112  118 -158 C  96 -120  74 -96  46 -76 Z"
+          fill="#F3E7D0"/>
+    <path d="M -74 -30 C -104 -58 -117 -102 -112 -142 C -95 -112 -76 -92 -52 -74 Z"
+          fill="#0B111F" opacity=".35"/>
+    <path d="M  74 -30 C  104 -58  117 -102  112 -142 C  95 -112  76 -92  52 -74 Z"
+          fill="#0B111F" opacity=".35"/>
+
+    <!-- skull -->
+    <path d="M 0 -104 L 78 -66 L 92 10 L 60 74 L 0 122 L -60 74 L -92 10 L -78 -66 Z"
+          fill="#F3E7D0"/>
+    <!-- cheek shading -->
+    <path d="M 0 -104 L 78 -66 L 92 10 L 60 74 L 0 122 Z" fill="#0B111F" opacity=".18"/>
+
+    <!-- brow ridge -->
+    <path d="M -84 -46 L 0 -20 L 84 -46 L 84 -22 L 0 6 L -84 -22 Z" fill="#0B111F" opacity=".45"/>
+
+    <!-- eyes -->
+    <path d="M -70 -8 L -18 12 L -26 42 L -66 26 Z" fill="#B01221"/>
+    <path d="M  70 -8 L  18 12 L  26 42 L  66 26 Z" fill="#B01221"/>
+    <path d="M -62 2 L -30 14 L -34 30 L -60 20 Z" fill="#FFFFFF" opacity=".55"/>
+    <path d="M  62 2 L  30 14 L  34 30 L  60 20 Z" fill="#FFFFFF" opacity=".55"/>
+
+    <!-- snout + jaw -->
+    <path d="M -44 54 L 44 54 L 30 92 L 0 122 L -30 92 Z" fill="#0B111F" opacity=".55"/>
+    <!-- fangs -->
+    <path d="M -40 54 L -26 54 L -30 84 Z" fill="#F3E7D0"/>
+    <path d="M  40 54 L  26 54 L  30 84 Z" fill="#F3E7D0"/>
+    <path d="M -14 56 L -2 56 L -8 76 Z" fill="#F3E7D0"/>
+    <path d="M  14 56 L  2 56 L  8 76 Z" fill="#F3E7D0"/>
+  </g>
+
+  <!-- banner -->
+  <path d="M 44 336 L 468 336 L 448 396 L 64 396 Z" fill="#B01221"/>
+  <path d="M 44 336 L 468 336 L 464 348 L 48 348 Z" fill="#D6202F"/>
+  <path d="M 44 336 L 20 316 L 26 372 L 64 396 Z" fill="#7E0B17"/>
+  <path d="M 468 336 L 492 316 L 486 372 L 448 396 Z" fill="#7E0B17"/>
+  <g transform="translate(256,380) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="52" letter-spacing="3" fill="#F3E7D0">THE GRENDEL</text></g>
+
+  <g transform="translate(256,434) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="22" letter-spacing="4" fill="#E7B32A">2026/27</text></g>
+  <g transform="translate(256,96) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="20" letter-spacing="5" fill="#E7B32A">EST. 2026</text></g>
+</svg>

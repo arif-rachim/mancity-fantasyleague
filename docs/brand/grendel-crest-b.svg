@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16233D"/><stop offset="1" stop-color="#0B111F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="#6CABDD"/>
+  <circle cx="256" cy="256" r="230" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="212" fill="none" stroke="#6CABDD" stroke-width="5"/>
+
+  
+  <g transform="translate(256,226) scale(0.92)">
+    <!-- horns -->
+    <path d="M -74 -30 C -112 -60 -128 -112 -118 -158 C -96 -120 -74 -96 -46 -76 Z"
+          fill="#6CABDD"/>
+    <path d="M  74 -30 C  112 -60  128 -112  118 -158 C  96 -120  74 -96  46 -76 Z"
+          fill="#6CABDD"/>
+    <path d="M -74 -30 C -104 -58 -117 -102 -112 -142 C -95 -112 -76 -92 -52 -74 Z"
+          fill="#06101F" opacity=".35"/>
+    <path d="M  74 -30 C  104 -58  117 -102  112 -142 C  95 -112  76 -92  52 -74 Z"
+          fill="#06101F" opacity=".35"/>
+
+    <!-- skull -->
+    <path d="M 0 -104 L 78 -66 L 92 10 L 60 74 L 0 122 L -60 74 L -92 10 L -78 -66 Z"
+          fill="#6CABDD"/>
+    <!-- cheek shading -->
+    <path d="M 0 -104 L 78 -66 L 92 10 L 60 74 L 0 122 Z" fill="#06101F" opacity=".18"/>
+
+    <!-- brow ridge -->
+    <path d="M -84 -46 L 0 -20 L 84 -46 L 84 -22 L 0 6 L -84 -22 Z" fill="#06101F" opacity=".45"/>
+
+    <!-- eyes -->
+    <path d="M -70 -8 L -18 12 L -26 42 L -66 26 Z" fill="#FF3B4E"/>
+    <path d="M  70 -8 L  18 12 L  26 42 L  66 26 Z" fill="#FF3B4E"/>
+    <path d="M -62 2 L -30 14 L -34 30 L -60 20 Z" fill="#FFFFFF" opacity=".55"/>
+    <path d="M  62 2 L  30 14 L  34 30 L  60 20 Z" fill="#FFFFFF" opacity=".55"/>
+
+    <!-- snout + jaw -->
+    <path d="M -44 54 L 44 54 L 30 92 L 0 122 L -30 92 Z" fill="#06101F" opacity=".55"/>
+    <!-- fangs -->
+    <path d="M -40 54 L -26 54 L -30 84 Z" fill="#6CABDD"/>
+    <path d="M  40 54 L  26 54 L  30 84 Z" fill="#6CABDD"/>
+    <path d="M -14 56 L -2 56 L -8 76 Z" fill="#6CABDD"/>
+    <path d="M  14 56 L  2 56 L  8 76 Z" fill="#6CABDD"/>
+  </g>
+
+  <path d="M 152 358 L 360 358 L 360 364 L 152 364 Z" fill="#6CABDD" opacity=".55"/>
+  <g transform="translate(256,408) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="42" letter-spacing="3" fill="#FFFFFF">THE GRENDEL</text></g>
+  <g transform="translate(256,442) scale(0.84,1)"><text x="0" y="0" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="17" letter-spacing="4" fill="#6CABDD">FPL · EST. 2026</text></g>
+</svg>
