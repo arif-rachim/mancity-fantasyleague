@@ -1,21 +1,21 @@
 # mancity-fantasyleague
 
-Catatan strategi & perencanaan tim Fantasy Premier League (FPL) musim **2026/27**.
+Strategy & planning notes for a Fantasy Premier League (FPL) team for the **2026/27** season.
 
-Repo ini menyimpan analisa, rencana squad, dan rencana transfer/chip per gameweek.
+This repo stores analysis, squad plans, and transfer/chip plans per gameweek.
 
-## Isi
+## Contents
 
-| Dokumen | Deskripsi |
+| Document | Description |
 | --- | --- |
-| [`docs/2026-27/gw1-plan.md`](docs/2026-27/gw1-plan.md) | Analisa mendalam + squad Gameweek 1, rencana transfer GW1–8, dan rencana chip paruh pertama |
+| [`docs/2026-27/gw1-plan.md`](docs/2026-27/gw1-plan.md) | In-depth analysis + Gameweek 1 squad, GW1–8 transfer plan, and first-half chip plan |
 
-## Info musim 2026/27
+## 2026/27 season info
 
-- Deadline GW1: **Jumat, 21 Agustus 2026, 17:30 UTC** (18:30 BST)
-- Budget: **£100.0m** untuk 15 pemain (2 GKP / 5 DEF / 5 MID / 3 FWD)
-- Maksimum **3 pemain per klub**
+- GW1 deadline: **Friday, 21 August 2026, 17:30 UTC** (18:30 BST)
+- Budget: **£100.0m** for 15 players (2 GKP / 5 DEF / 5 MID / 3 FWD)
+- Maximum of **3 players per club**
 
-Sumber data harga, kepemilikan, dan statistik: API resmi FPL
-(`https://fantasy.premierleague.com/api/bootstrap-static/` dan `/api/fixtures/`),
-ditarik pada 19 Agustus 2026.
+Data source for prices, ownership, and statistics: the official FPL API
+(`https://fantasy.premierleague.com/api/bootstrap-static/` and `/api/fixtures/`),
+pulled on 19 August 2026.
